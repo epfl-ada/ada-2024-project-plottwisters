@@ -1,4 +1,4 @@
-# Praject title by PlotTwisters
+# Project title by PlotTwisters
 
 ##Quickstart
 ```bash
