@@ -43,7 +43,26 @@ The directory structure of new project looks like this:
 
 ## Abstract
 ## Research questions
-## Methods
+## Methods 
+To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
+
+After further analysis, we focused on cleaning the following columns:
+- **'Movie release date'**
+  - **Issue**: Many movies lack a complete release date (day and month), and some are missing a release date entirely.
+  - **Solution**: Create two new columns—one for the "year" and another for the full "year-month-day" format, with NaN values for missing information.
+
+- **'Movie box office revenue'**
+  - **Issue**: Box office values are difficult to compare across different years due to inflation and varying years of measurement.
+  - **Solution**: Adjust all (USD) box office revenues that are not NaN to 2024 values using known US inflation rates, enabling consistent comparisons.
+
+- **'Movie languages', 'Movie countries', 'Movie genres'**
+  - **Issue**: These columns contain irregular characters and formatting (e.g., `"/m/02h40lc": "English Language"`).
+  - **Solution**: Remove special characters and standardize the entries, providing each movie with a clean list of languages, countries, and genres. When the list is empty it means there is no data available.  
+
+This cleaning process ensures the dataset is structured and comparable across entries for accurate analysis.
+
+(218 words)
+
 ## Timeline
 ## Organization within the group
 
