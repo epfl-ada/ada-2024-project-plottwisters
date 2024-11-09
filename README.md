@@ -45,7 +45,7 @@ The directory structure of new project looks like this:
 ## Research questions
 - Does each movie genre have an optimal release period when audiences are more inclined to watch them, to maximise revenue?
   - Have popular release months shifted over time, and are these shifts related to changes in audience preferences or competing media events?
-  - How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?) bof c dur
+  - How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?
 
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
