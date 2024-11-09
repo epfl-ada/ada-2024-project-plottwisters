@@ -43,7 +43,7 @@ The directory structure of new project looks like this:
 
 ## Abstract
 ## Research questions
-1. Does each movie genre have an optimal release period when audiences are more inclined to watch them, to maximise revenue? 
+1. Does each movie genre have an optimal release period when audiences are more inclined to watch them, to maximise revenue?
       a. Have popular release months shifted over time, and are these shifts related to changes in audience preferences or competing media events?
       b. How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?) bof c dur
 
