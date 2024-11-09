@@ -47,6 +47,13 @@ The directory structure of new project looks like this:
   - Have popular release months shifted over time, and are these shifts related to changes in audience preferences or competing media events?
   - How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?
 
+- How do societal events or seasonal trends correlate with the box office performance of specific genres or themes?
+  - Do movies in certain countries cluster around specific times of year, potentially linked to cultural events or holidays?
+
+- Do longer movies tend to be released at specific times compared to shorter ones?
+  - What role does movie run time play in genre-based release strategies?
+  - Does the length of a movie impact its box office success based on release timing?
+
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
 
