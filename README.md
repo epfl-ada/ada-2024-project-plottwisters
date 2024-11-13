@@ -72,11 +72,26 @@ After further analysis, we focused on cleaning the following columns:
   - **Issue**: These columns contain irregular characters and formatting (e.g., `"/m/02h40lc": "English Language"`).
   - **Solution**: Remove special characters and standardize the entries, providing each movie with a clean list of languages, countries, and genres. When the list is empty it means there is no data available.  
 
+- **'Movie runtime'**
+  - **Issue**: These columns contain unrealistic values (e.g., 18'000 hour long movie, 0sec long movie).
+  - **Solution**: Filter out movies with unreasonable runtime.
+
 This cleaning process ensures the dataset is structured and comparable across entries for accurate analysis.
 
 (218 words)
 
 ## Timeline
+- 15.11.2024 P2 deadline: Data Handling and Preprocessing & Initial Exploratory Data Analysis.
+- 29.11.2024 Preliminary analysis: sentiment analysis and themes extraction from the summaries, make first visuals and statistical tests to verify feasibility of hypotheses.
+- 06.12.2024 Final Analysis: answer research questions with strong visuals and test that our results are statically relevant.
+- 13.12.2024 Data story and first draft of the webpage.
+- 20.12.2024 P3 deadline: Finalise visualisation and data story, clean code.
+
 ## Organization within the group
+- Nicolas: Data handling and preprocessing, sentiment analysis 
+- Elsa: Topic extraction, question 1
+- Mentor: Topic extraction, question 1
+- Lucie: Question 2, Clean code 
+- Jack: Question 3, Set up webpage
 
 ## Questions for TA
