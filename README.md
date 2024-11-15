@@ -58,6 +58,10 @@ The directory structure of new project looks like this:
 ## Historical events
 -  Information about historical events are not available in the CMU dataset. In our analysis, it is critical for us to have this data. Thus, we will be able to compare them with different film genres or themes and check if those events had a strong impact on those films or not.
 
+## TMDB Movies Dataset 2024
+- There are many missing datapoints for box office returns in the CMU dataset (about 90%). Using the "Full TMDB Movies Dataset 2024 (1M Movies)" database from Kaggle, which contains data about over a million movies, would allow us to extract more data about not only box office returns but also viewer ratings which could be interesting to analyze. Linking this dataset to our primary dataset would be done through the name of the movie and year of release. 
+
+
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
 
