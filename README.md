@@ -52,7 +52,7 @@ The directory structure of new project looks like this:
   - What role does movie run time play in genre-based release strategies?
   - Does the length of a movie impact its box office success based on release timing?
 
-(142 words)
+(145 words)
 
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
