@@ -20,20 +20,26 @@ pip install -r pip_requirements.txt
 The directory structure of new project looks like this:
 
 ```
-├── data                        <- Project data files
+├── data                              <--- Initial data
+│    ├── data_events.txt
+│    ├── movie.metadata.csv
+│    ├── plot_summaries.txt
 │
-├── src                         <- Source code
-│   ├── data                            <- Data directory
-│   ├── models                          <- Model directory
-│   ├── utils                           <- Utility directory
-│   ├── scripts                         <- Shell scripts
+├── generated                         <--- Initial data cleaned
+│    ├── cleaned_data.csv
+│    ├── usa_historical_events.csv
 │
-├── tests                       <- Tests of any kind
+├──temporary
+│    ├── df1_temporary.csv            <--- First part of the theme extraction
 │
-├── results.ipynb               <- a well-structured notebook showing the results
+├── src                               <--- source codes
+│    ├── pre_processing.ipynb
+│    ├── theme_extract.ipynb
+│    ├── plot_tone_extraction.ipynb
 │
-├── .gitignore                  <- List of files ignored by git
-├── pip_requirements.txt        <- File for installing python dependencies
+├── analysis.ipynb                    <--- Results of the analysis
+│
+├── requirements.txt
 └── README.md
 ```
 
