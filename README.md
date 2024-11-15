@@ -1,6 +1,6 @@
 # The Influence of History & Seasonality on Cinema: Analysing Movie Release Patterns by Genre, Theme, and Box Office Success Over Time
 
-##Quickstart
+## Quickstart
 ```bash
 # clone project
 git clone https://github.com/epfl-ada/ada-2024-project-plottwisters.git
@@ -14,8 +14,6 @@ conda activate <env_name>
 # install requirements
 pip install -r pip_requirements.txt
 ```
-### How to use the library
-Tell us how the code is arranged, any explanations goes here.
 
 ## Project Structure
 
