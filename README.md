@@ -1,4 +1,4 @@
-# Project title by PlotTwisters
+# The Influence of History & Seasonality on Cinema: Analysing Movie Release Patterns by Genre, Theme, and Box Office Success Over Time
 
 ##Quickstart
 ```bash
@@ -16,8 +16,6 @@ pip install -r pip_requirements.txt
 ```
 ### How to use the library
 Tell us how the code is arranged, any explanations goes here.
-
-
 
 ## Project Structure
 
@@ -77,6 +75,8 @@ After further analysis, we focused on cleaning the following columns:
   - **Solution**: Filter out movies with unreasonable runtime.
 
 This cleaning process ensures the dataset is structured and comparable across entries for accurate analysis.
+
+
 
 (218 words)
 
