@@ -55,7 +55,7 @@ The directory structure of new project looks like this:
 (145 words)
 
 ## Additional Datasets
--  Historical events : Information about historical events are not available in the CMU dataset. This data gives us the type of histrocial event and when it happened in time. This dataset was recreated by web scraping the data from https://www.timetoast.com/timelines/us-history-in-the-20th-century. We preemptively verified that their data was copyright-free. 
+-  Historical events : Information about historical events are not available in the CMU dataset. This data gives us the type of histrocial event and when it happened in time. This dataset was recreated by web scraping the data from : https://www.timetoast.com/timelines/us-history-in-the-20th-century. We preemptively verified that their data was copyright-free.
 
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
