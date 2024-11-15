@@ -87,11 +87,15 @@ This cleaning process ensures the dataset is structured and comparable across en
 - 13.12.2024 Data story and first draft of the webpage.
 - 20.12.2024 P3 deadline: Finalise visualisation and data story, clean code.
 
+(71 words)
+
 ## Organization within the group
 - Nicolas: Data handling and preprocessing, sentiment analysis 
 - Elsa: Topic extraction, question 1
 - Mentor: Topic extraction, question 1
 - Lucie: Question 2, Clean code 
 - Jack: Question 3, Set up webpage
+
+(37 words)
 
 ## Questions for TA
