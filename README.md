@@ -37,6 +37,9 @@ The directory structure of new project looks like this:
 │    ├── theme_extract.ipynb
 │    ├── plot_tone_extraction.ipynb
 │
+├── test
+│    ├── notebook_draft.ipynb
+│
 ├── analysis.ipynb                    <--- Results of the analysis
 │
 ├── requirements.txt
