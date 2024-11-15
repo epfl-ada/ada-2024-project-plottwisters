@@ -109,5 +109,5 @@ Then, we need to find different algorithms or libraries to extract the themes an
 - Jack: Question 3, Set up webpage
 
 ## Questions for TA
-- Is the ChatGPT API a good way to extract the themes ? We tried it and it works quite well, but we are not sure if it is the best way to do it. We want to be sure that it is allowed.
+- Is the ChatGPT API a good way to extract the themes ? We tried it and it works quite well, but we are not sure if it is the best way to do it. We also want to be sure that it is allowed.
 - We decided that we want to combine the two datasets. What would be the best way of doing it ?
