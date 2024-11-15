@@ -88,7 +88,7 @@ Then, we need to find different algorithms or libraries to extract the themes an
 - **Plot tone analysis**
   - For this, we use the "VADER sentiment analysis" library which contains a dictionary. Each of the words inside are associated to a polarity score depending on how positive or negative they are. The total score is computed one summary, and then it is normalized and takes values from -1 to +1 to categorize the text as positive, negative or neutral.
 
-(249 words)
+(403 words)
 
 ## Timeline
 - 15.11.2024 P2 deadline: Data Handling and Preprocessing & Initial Exploratory Data Analysis.
