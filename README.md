@@ -47,7 +47,7 @@ The directory structure of new project looks like this:
   - Have popular release months shifted over time, and are these shifts related to changes in audience preferences or competing media events?
   - How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?
 
-- How do societal events or seasonal trends correlate with the box office performance of specific genres or themes?
+- How do significant historical events correlate with specific genres or themes prevalence, and how does it influence the box office performance ?
   - Do movies in certain countries cluster around specific times of year, potentially linked to cultural events or holidays?
 
 - Do longer movies tend to be released at specific times compared to shorter ones?
