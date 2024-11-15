@@ -30,9 +30,9 @@ The directory structure of new project looks like this:
 │    ├── usa_historical_events.csv
 │
 ├──temporary
-│    ├── df1.csv            <--- First part of the theme extraction
-     ├──cleaned_data.csv
-     ├──usa_historical_events.csv
+│    ├── df1.csv                      <--- First part of the theme extraction
+│    ├── cleaned_data.csv
+│    ├── usa_historical_events.csv
 │
 ├── src                               <--- source codes
 │    ├── pre_processing.ipynb
