@@ -47,12 +47,14 @@ The directory structure of new project looks like this:
 ```
 
 ## Abstract
-## Research questions
-- Does each movie genre have an optimal release period when audiences are more inclined to watch them, to maximise revenue?
-  - Have popular release months shifted over time, and are these shifts related to changes in audience preferences or competing media events?
-  - How do thematic keywords in plot summaries correlate with the release dates and revenue success of movies?
+This project analyzes the CMU Movie Summary Corpus to explore patterns in movie release timing, genre, themes, and box office success. Key research questions include identifying optimal release periods for different genres, examining shifts in popular release months over time, and investigating correlations between thematic content, historical events, and box office success. Supplementary data, including U.S. historical events and box office metrics from the TMDB Movies Dataset, will complete the data and able us to enhance our analysis accuracy. Data preparation involves cleaning essential columns (e.g., release date, runtime, box office revenue), adjusting financial figures for inflation, and standardizing movie attributes. To extract thematic and tonal elements from plot summaries, we use a ChatGPT API for theme classification and VADER sentiment analysis for sentiment analysis. These methods aim to uncover insights into audience preferences and release strategies, offering a historical perspective on movie success and timing within the film industry.
 
-- How do significant historical events correlate with specific genres or themes prevalence, and how does it influence the box office performance ?
+## Research questions
+- Does each movie genre have an optimal release period (e.g. peak months or holiday periods) when audiences are more inclined to watch them, to maximise revenue?
+  - Have popular release months shifted over time, and are these shifts related to changes in audience preferences, economic factors or competing media events?
+  - How do thematic keywords in plot summaries correlate with the release dates and box office success of movies?
+
+- How do significant historical events such wars, social movements or economic crises correlate with specific genres or themes prevalence over time, and how does it influence the box office performance ?
   - Do movies in certain countries cluster around specific times of year, potentially linked to cultural events or holidays?
 
 - Do longer movies tend to be released at specific times compared to shorter ones?
@@ -65,7 +67,7 @@ The directory structure of new project looks like this:
 - TMDB Movies Dataset 2024 : There are many missing datapoints for box office returns in the CMU dataset (about 90%). Using the "Full TMDB Movies Dataset 2024 (1M Movies)" database from Kaggle, which contains data about over a million movies, would allow us to extract more data about not only box office returns but also viewer ratings which could be interesting to analyze. Linking this dataset to our primary dataset would be done through the name of the movie and year of release. 
 
 ## Methods 
-To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
+To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
 
 After further analysis, we focused on cleaning the following columns:
 - **'Movie release date'**
