@@ -50,14 +50,11 @@ The directory structure of new project looks like this:
   - What role does movie run time play in genre-based release strategies?
   - Does the length of a movie impact its box office success based on release timing?
 
-(145 words)
-
 ## Additional Datasets
 -  Historical events : Information about historical events are not available in the CMU dataset. This data gives us the type of histrocial event and when it happened in time. It contains only events that concerned the USA, knowing that most of the CMU dataset that we have contains american movies. This dataset was recreated by web scraping the data from : https://www.timetoast.com/timelines/us-history-in-the-20th-century. We preemptively verified that their data was copyright-free.
 
 - TMDB Movies Dataset 2024 : There are many missing datapoints for box office returns in the CMU dataset (about 90%). Using the "Full TMDB Movies Dataset 2024 (1M Movies)" database from Kaggle, which contains data about over a million movies, would allow us to extract more data about not only box office returns but also viewer ratings which could be interesting to analyze. Linking this dataset to our primary dataset would be done through the name of the movie and year of release. 
 
-(154 words)
 ## Methods 
 To prepare the data for analysis, we began by isolating the columns relevant to our research: 'Wikipedia movie ID', 'Movie release date', 'Movie box office revenue', 'Movie runtime', 'Movie languages', 'Movie countries', and 'Movie genres'. Given the significant amount of missing data and raw formatting, standardizing the formatting through data cleaning was necessary. 
 
@@ -88,8 +85,6 @@ Then, we need to find different algorithms or libraries to extract the themes an
 - **Plot tone analysis**
   - For this, we use the "VADER sentiment analysis" library which contains a dictionary. Each of the words inside are associated to a polarity score depending on how positive or negative they are. One total score is computed per summary, and then it is normalized and takes a value between -1 and +1 to categorize the text as positive, negative or neutral.
 
-(403 words)
-
 ## Timeline
 - 15.11.2024 P2 deadline: Data Handling and Preprocessing & Initial Exploratory Data Analysis.
 - 29.11.2024 Preliminary analysis: sentiment analysis and themes extraction from the summaries, make first visuals and statistical tests to verify feasibility of hypotheses.
@@ -97,15 +92,11 @@ Then, we need to find different algorithms or libraries to extract the themes an
 - 13.12.2024 Data story and first draft of the webpage.
 - 20.12.2024 P3 deadline: Finalise visualisation and data story, clean code.
 
-(71 words)
-
 ## Organization within the group
 - Nicolas: Data handling and preprocessing, sentiment analysis 
 - Elsa: Topic extraction, question 1
 - Mentor: Topic extraction, question 1
 - Lucie: Question 2, Clean code 
 - Jack: Question 3, Set up webpage
-
-(37 words)
 
 ## Questions for TA
