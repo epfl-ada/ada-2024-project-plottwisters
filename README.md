@@ -54,8 +54,8 @@ The directory structure of new project looks like this:
 
 (145 words)
 
-## Additional Datasets
-# Historical events
+# Additional Datasets
+## Historical events
 -  Information about historical events are not available in the CMU dataset. In our analysis, it is critical for us to know what type of events happened at a specific period of the time. Thus, we will be able to compare them with different film genres or themes and check if those events had a strong impact on those films or not.
 
 ## Methods 
