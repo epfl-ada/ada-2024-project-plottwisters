@@ -82,7 +82,13 @@ After further analysis, we focused on cleaning the following columns:
 
 This cleaning process ensures the dataset is structured and comparable across entries for accurate analysis.
 
+Then, 
 
+- **Movie themes :**
+  - We decided to use a ChatGPT API which allows us to extract one single theme from each movie summary. The prompt we give to the algorithm to extract the theme is : "Label the movie's theme with a single word based on its plot : ". Then, we clean the results to get rid of all the unwanted charaters and store everything in the movie dataframe.
+
+- **Plot tone analysis :**
+  - For this, we use the "VADER sentiment analysis" library which contains a dictionary. Each of the words inside are associated to a polarity score depending on how positive or negative they are. The total score is computed one summary, and then it is normalized and takes values from -1 to +1 to categorize the text as positive, negative or neutral.
 
 (249 words)
 
