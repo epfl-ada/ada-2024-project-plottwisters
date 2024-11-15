@@ -54,9 +54,8 @@ The directory structure of new project looks like this:
 
 (145 words)
 
-# Additional Datasets
-## Historical events
--  Information about historical events are not available in the CMU dataset. In our analysis, it is critical for us to have this data. Thus, we will be able to compare them with different film genres or themes and check if those events had a strong impact on those films or not.
+## Additional Datasets
+-  Historical events : Information about historical events are not available in the CMU dataset. This data gives us the type of histrocial event and when it happened in time. It contains only events that concerned the USA, knowing that most of the CMU dataset that we have contains american movies. This dataset was recreated by web scraping the data from : https://www.timetoast.com/timelines/us-history-in-the-20th-century. We preemptively verified that their data was copyright-free.
 
 ## TMDB Movies Dataset 2024
 - There are many missing datapoints for box office returns in the CMU dataset (about 90%). Using the "Full TMDB Movies Dataset 2024 (1M Movies)" database from Kaggle, which contains data about over a million movies, would allow us to extract more data about not only box office returns but also viewer ratings which could be interesting to analyze. Linking this dataset to our primary dataset would be done through the name of the movie and year of release. 
