@@ -12,7 +12,7 @@ conda activate <env_name>
 
 
 # install requirements
-pip install -r pip_requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Project Structure
