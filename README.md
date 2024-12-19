@@ -20,29 +20,50 @@ pip install -r requirements.txt
 The directory structure of new project looks like this:
 
 ```
-├── data                              <--- Initial data
-│    ├── data_events.txt
+├── data                              <--- Initial raw data
 │    ├── movie.metadata.csv
 │    ├── plot_summaries.txt
+│    ├── TMDB_movie_dataset_v11.csv
 │
 ├── generated                         <--- Initial data cleaned
-│    ├── cleaned_data.csv
-│    ├── usa_historical_events.csv
+│    ├── final_movie_dataset.csv
 │
 ├──temporary
+│    ├── preprocessed_data.csv
+│    ├── merged_data.csv
+│    ├── withplottone_data.csv
 │    ├── df1.csv                      <--- First part of the theme extraction
-│    ├── cleaned_data.csv
-│    ├── usa_historical_events.csv
+│    ├── df2.csv
+│    ├── df3.csv
+│    ├── df4.csv
+│    ├── df5.csv
+│    ├── df6.csv
+│    ├── df7.csv
+│    ├── df8.csv
+│    ├── df9.csv
+│    ├── df10.csv                   
 │
 ├── src                               <--- source codes
-│    ├── pre_processing.ipynb
-│    ├── theme_extraction.ipynb
-│    ├── plot_tone_extraction.ipynb
+│    ├── 1_pre_processing.ipynb            (pre processing of the CMU dataset)
+│    ├── 2_merge_datasets.ipynb            (add summaries to dataset and merge the TMDB on the CMU dataset)
+│    ├── 3_plot_tone_extraction.ipynb      (add plot tone for each available summary)
+│    ├── 4_theme_extraction.ipynb          (add theme for each available summary)
 │
 ├── test
 │    ├── notebook_draft.ipynb
 │
-├── analysis.ipynb                    <--- Results of the analysis
+├── visuals
+│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── ...
+│
+├── preliminary_analysis.ipynb        <--- Preliminary xploration of the dataset
+├── analysis.ipynb                    <--- Analysis
+├── results.ipynb                     <--- Results of the analysis
+├── datastory.ipynb                   <--- Plots for the Datastory
 │
 ├── requirements.txt
 └── README.md
