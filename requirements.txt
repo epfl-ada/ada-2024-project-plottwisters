@@ -7,3 +7,5 @@ seaborn>=0.12.2
 vaderSentiment>=3.0.0 
 plotly>=5.13.1   
 openai >=1.54.4
+ast
+statsmodels
