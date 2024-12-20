@@ -66,7 +66,7 @@ The directory structure of the project looks like this:
 │    ├── df_7_plot.html
 │    ├── df_8_profheatmap.png
 │
-├── 1_preliminary_analysis.ipynb        <--- Preliminary xploration of the dataset
+├── 1_preliminary_analysis.ipynb        <--- Preliminary exploration of the dataset
 ├── 2_analysis_plots.ipynb              <--- Analysis
 ├── 3_datastory_plots.ipynb             <--- Plots for the Datastory
 ├── 4_results.ipynb                     <--- Results of the analysis
