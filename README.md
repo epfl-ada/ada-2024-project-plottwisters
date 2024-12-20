@@ -20,10 +20,14 @@ pip install -r requirements.txt
 The directory structure of the project looks like this:
 
 ```
-├── Data                              <--- Initial raw data
+├── data                              <--- Initial raw data
 │    ├── movie.metadata.tsv
 │    ├── plot_summaries.txt
 │    ├── TMDB_movie_dataset_v11.csv
+│
+├── results                           
+│    ├── saved_variables.pkl
+│    ├── OSL_summary.txt    
 │
 ├── generated                         <--- Initial data cleaned
 │    ├── final_movie_dataset.csv
