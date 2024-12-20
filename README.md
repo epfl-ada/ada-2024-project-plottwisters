@@ -17,11 +17,11 @@ pip install -r requirements.txt
 
 ## Project Structure
 
-The directory structure of new project looks like this:
+The directory structure of the project looks like this:
 
 ```
-├── data                              <--- Initial raw data
-│    ├── movie.metadata.csv
+├── Data                              <--- Initial raw data
+│    ├── movie.metadata.tsv
 │    ├── plot_summaries.txt
 │    ├── TMDB_movie_dataset_v11.csv
 │
@@ -49,21 +49,27 @@ The directory structure of new project looks like this:
 │    ├── 3_plot_tone_extraction.ipynb      (add plot tone for each available summary)
 │    ├── 4_theme_extraction.ipynb          (add theme for each available summary)
 │
-├── test
-│    ├── notebook_draft.ipynb
 │
 ├── visuals
-│    ├── NbLGBTMovies_ReleaseYear.png
-│    ├── NbLGBTMovies_ReleaseYear.png
-│    ├── NbLGBTMovies_ReleaseYear.png
-│    ├── NbLGBTMovies_ReleaseYear.png
-│    ├── NbLGBTMovies_ReleaseYear.png
+│    ├── 1.png
+│    ├── 2.png
+│    ├── 3.png
+│    ├── 4.png
+│    ├── 5.png
 │    ├── ...
+│    ├── df_1_histograms.png
+│    ├── df_2_profbydecade.png
+│    ├── df_3_profpermonth.png
+│    ├── df_4_profdistribution.png
+│    ├── df_5_proftrends.png
+│    ├── df_6_proftrends20.png
+│    ├── df_7_plot.html
+│    ├── df_8_profheatmap.png
 │
-├── preliminary_analysis.ipynb        <--- Preliminary xploration of the dataset
-├── analysis.ipynb                    <--- Analysis
-├── results.ipynb                     <--- Results of the analysis
-├── datastory.ipynb                   <--- Plots for the Datastory
+├── 1_preliminary_analysis.ipynb        <--- Preliminary xploration of the dataset
+├── 2_analysis_plots.ipynb              <--- Analysis
+├── 3_datastory_plots.ipynb             <--- Plots for the Datastory
+├── 4_results.ipynb                     <--- Results of the analysis
 │
 ├── requirements.txt
 └── README.md
@@ -85,7 +91,6 @@ This project analyzes the CMU Movie Summary Corpus to explore patterns in movie 
   - Does the length of a movie impact its box office success based on release timing?
 
 ## Additional Datasets
--  Historical events : Information about historical events are not available in the CMU dataset. This data gives us the type of histrocial event and when it happened in time. It contains only events that concerned the USA, knowing that most of the CMU dataset that we have contains american movies. This dataset was recreated by web scraping the data from : https://www.timetoast.com/timelines/us-history-in-the-20th-century. We preemptively verified that their data was copyright-free.
 
 - TMDB Movies Dataset 2024 : There are many missing datapoints for box office returns in the CMU dataset (about 90%). Using the "Full TMDB Movies Dataset 2024 (1M Movies)" database from Kaggle, which contains data about over a million movies, would allow us to extract more data about not only box office returns but also viewer ratings which could be interesting to analyze. Linking this dataset to our primary dataset would be done through the name of the movie and year of release. 
 
@@ -118,21 +123,3 @@ Then, we need to find different algorithms or libraries to extract the themes an
 
 - **Plot tone analysis**
   - For this, we use the "VADER sentiment analysis" library which contains a dictionary. Each of the words inside are associated to a polarity score depending on how positive or negative they are. One total score is computed per summary, and then it is normalized and takes a value between -1 and +1 to categorize the text as positive, negative or neutral.
-
-## Timeline
-- 15.11.2024 P2 deadline: Data Handling and Preprocessing & Initial Exploratory Data Analysis.
-- 29.11.2024 Preliminary analysis: sentiment analysis and themes extraction from the summaries, make first visuals and statistical tests to verify feasibility of hypotheses.
-- 06.12.2024 Final Analysis: answer research questions with strong visuals and test that our results are statically relevant.
-- 13.12.2024 Data story and first draft of the webpage.
-- 20.12.2024 P3 deadline: Finalise visualisation and data story, clean code.
-
-## Organization within the group
-- Nicolas: Data handling and preprocessing, sentiment analysis 
-- Elsa: Topic extraction, question 1
-- Mentor: Topic extraction, question 1
-- Lucie: Question 2, Clean code 
-- Jack: Question 3, Set up webpage
-
-## Questions for TA
-- Is the ChatGPT API a good way to extract the themes ? We tried it and it works quite well, but we are not sure if it is the best way to do it. We also want to be sure that it is allowed.
-- We decided that we want to combine the two datasets. What would be the best way of doing it ?
