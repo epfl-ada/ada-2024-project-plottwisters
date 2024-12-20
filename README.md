@@ -28,11 +28,11 @@ The directory structure of the project looks like this:
 ├── generated                         <--- Initial data cleaned
 │    ├── final_movie_dataset.csv
 │
-├──temporary
+├──temporary                          <--- Files for theme extraction
 │    ├── preprocessed_data.csv
 │    ├── merged_data.csv
 │    ├── withplottone_data.csv
-│    ├── df1.csv                      <--- First part of the theme extraction
+│    ├── df1.csv                      
 │    ├── df2.csv
 │    ├── df3.csv
 │    ├── df4.csv
@@ -76,7 +76,9 @@ The directory structure of the project looks like this:
 ```
 
 ## Abstract
-This project analyzes the CMU Movie Summary Corpus to explore patterns in movie release timing, genre, themes, and box office success. Key research questions include identifying optimal release periods for different genres, examining shifts in popular release months over time, and investigating correlations between thematic content, historical events, and box office success. Supplementary data, including U.S. historical events and box office metrics from the TMDB Movies Dataset, will complete the data and able us to enhance our analysis accuracy. Data preparation involves cleaning essential columns (e.g., release date, runtime, box office revenue), adjusting financial figures for inflation, and standardizing movie attributes. To extract thematic and tonal elements from plot summaries, we use a ChatGPT API for theme classification and VADER sentiment analysis for sentiment analysis. These methods aim to uncover insights into audience preferences and release strategies, offering a historical perspective on movie success and timing within the film industry.
+This project explores historical patterns in movie release timing, genre selection, thematic content, and box office performance using the CMU Movie Summary Corpus and supplemental data sources, including U.S. historical event timelines and box office metrics from the TMDB Movies Dataset. By aligning key dates and plot-driven themes with significant historical contexts, we aim to uncover how external factors influence both film profitability and audience reception.
+
+We employ rigorous data preparation steps—cleaning metadata, adjusting financial figures for inflation, and standardizing attributes—to ensure consistent, time-spanning comparisons. Beyond traditional genre classifications, we apply ChatGPT-based theme extraction to enrich our understanding of thematic elements. These enhanced insights support the identification of optimal release windows for specific film types, reveal how audience preferences shift alongside historical developments, and offer strategic guidance on aligning content, timing, and themes for producers and distributors.
 
 ## Research questions
 - Does each movie genre have an optimal release period (e.g. peak months or holiday periods) when audiences are more inclined to watch them, to maximise revenue?
