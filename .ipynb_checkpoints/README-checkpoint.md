@@ -1,5 +1,8 @@
 # The Influence of History & Seasonality on Cinema: Analysing Movie Release Patterns by Genre, Theme, and Box Office Success Over Time
 
+## Data story
+Link to our datastory: https://plottwisters.site/
+
 ## Quickstart
 ```bash
 # clone project
@@ -55,12 +58,24 @@ The directory structure of the project looks like this:
 │
 │
 ├── visuals                             <--- Saved visuals from the analysis
-│    ├── 1.png
-│    ├── 2.png
-│    ├── 3.png
-│    ├── 4.png
-│    ├── 5.png
-│    ├── ...
+│    ├── failed_vs_success_by_decade.png
+│    ├── heatmap_profit_genre_theme.png
+│    ├── median_budget_by_dec_year.png
+│    ├── median_profit_by_runtime.png
+│    ├── median_success_rate_by_budget.png
+│    ├── month_season_profit_releases.png
+│    ├── nb_movie_budget_profit_BoxOffice_decade.png
+│    ├── nb_movie_per_month.png
+│    ├── nb_movie_per_runtime.png
+│    ├── profit_over_time.png
+│    ├── profit_per_day.png
+│    ├── profit_per_month.png
+│    ├── profit_representation_by_genre.png
+│    ├── profit_representation_by_theme_20_years.png
+│    ├── profit_representation_by_theme.png
+│    ├── profit_representation_of_genre_last_20_years.png
+│    ├── runtime_distribution_per_decade.png
+│    ├── runtime_distribution_per_month.png
 │    ├── df_1_histograms.png
 │    ├── df_2_profbydecade.png
 │    ├── df_3_profpermonth.png
@@ -126,5 +141,9 @@ Then, we need to find different algorithms or libraries to extract the themes an
 - **Movie themes**
   - We decided to use a ChatGPT API which allows us to extract one single theme from each movie summary. The prompt we give to the algorithm to extract the theme is : "Label the movie's theme with a single word based on its plot : ". Then, we clean the results to get rid of all the unwanted characters and store everything in the movie dataframe.
 
-- **Plot tone analysis**
-  - For this, we use the "VADER sentiment analysis" library which contains a dictionary. Each of the words inside are associated to a polarity score depending on how positive or negative they are. One total score is computed per summary, and then it is normalized and takes a value between -1 and +1 to categorize the text as positive, negative or neutral.
+- **Work separation**
+  - Nico:   Data pre-processing and Data story
+  - Mentor: Theme analysis
+  - Jack:   Runtime analysis and Web site 
+  - Lucie:  Theme extraction
+  - Elsa:   Historical events analysis
