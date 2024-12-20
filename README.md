@@ -28,7 +28,7 @@ The directory structure of the project looks like this:
 ├── generated                         <--- Initial data cleaned
 │    ├── final_movie_dataset.csv
 │
-├──temporary                          <--- Files of the theme extraction
+├──temporary                          <--- Files for theme extraction
 │    ├── preprocessed_data.csv
 │    ├── merged_data.csv
 │    ├── withplottone_data.csv
