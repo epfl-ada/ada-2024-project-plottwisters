@@ -20,15 +20,19 @@ pip install -r requirements.txt
 The directory structure of the project looks like this:
 
 ```
-├── Data                              <--- Initial raw data
+├── data                                <--- Initial raw data
 │    ├── movie.metadata.tsv
 │    ├── plot_summaries.txt
 │    ├── TMDB_movie_dataset_v11.csv
 │
-├── generated                         <--- Initial data cleaned
+├── results                             <--- Saved results from the analysis
+│    ├── saved_variables.pkl
+│    ├── OSL_summary.txt    
+│
+├── generated                           <--- Initial data cleaned
 │    ├── final_movie_dataset.csv
 │
-├──temporary                          <--- Files for theme extraction
+├──temporary                            <--- Files for theme extraction
 │    ├── preprocessed_data.csv
 │    ├── merged_data.csv
 │    ├── withplottone_data.csv
@@ -43,14 +47,14 @@ The directory structure of the project looks like this:
 │    ├── df9.csv
 │    ├── df10.csv                   
 │
-├── src                               <--- source codes
+├── src                                 <--- source codes
 │    ├── 1_pre_processing.ipynb            (pre processing of the CMU dataset)
 │    ├── 2_merge_datasets.ipynb            (add summaries to dataset and merge the TMDB on the CMU dataset)
 │    ├── 3_plot_tone_extraction.ipynb      (add plot tone for each available summary)
 │    ├── 4_theme_extraction.ipynb          (add theme for each available summary)
 │
 │
-├── visuals
+├── visuals                             <--- Saved visuals from the analysis
 │    ├── failed_vs_success_by_decade.png
 │    ├── heatmap_profit_genre_theme.png
 │    ├── median_budget_by_dec_year.png
@@ -78,10 +82,9 @@ The directory structure of the project looks like this:
 │    ├── df_7_plot.html
 │    ├── df_8_profheatmap.png
 │
-├── 1_preliminary_analysis.ipynb        <--- Preliminary xploration of the dataset
-├── 2_analysis_plots.ipynb              <--- Analysis
-├── 3_datastory_plots.ipynb             <--- Plots for the Datastory
-├── 4_results.ipynb                     <--- Results of the analysis
+├── 1_preliminary_analysis.ipynb        <--- Preliminary exploration of the dataset
+├── 2_analysis.ipynb                    <--- Analysis 
+├── 3_results.ipynb                     <--- Results of the analysis
 │
 ├── requirements.txt
 └── README.md
