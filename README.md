@@ -1,7 +1,7 @@
 # The Influence of History & Seasonality on Cinema: Analysing Movie Release Patterns by Genre, Theme, and Box Office Success Over Time
 
 ## Data story
-Link to our datastory: https://plottwisters.site/
+Link to our datastory: https://plottwisters.site/ or https://nicovp1.github.io/website_without_domain/
 
 ## Quickstart
 ```bash
